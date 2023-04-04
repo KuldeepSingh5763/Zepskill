@@ -1,0 +1,40 @@
+.dashboard
+{
+    background-color: brown;
+    height: 600px;
+    width: 1350px;
+
+}
+.header
+{
+    background-color: aqua;
+    height: 100px;
+    width:100%;
+}
+.container
+{
+    background-color: yellow;
+    height: 400px;
+    width: 100%;
+
+}  
+.login 
+{
+    background-color: chocolate;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 550px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    
+} 
+.footer 
+{
+    background-color: black;
+    height: 100px;
+    width: 100;
+} 

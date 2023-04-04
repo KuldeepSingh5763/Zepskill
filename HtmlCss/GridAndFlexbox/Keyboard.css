@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100vw;
+    height: 200vh;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-rows: repeat(6, 100px);
+    grid-template-columns: repeat(16,70px);
+    row-gap: 5px;
+    column-gap: 5px;
+}
+div{
+    height: 60px;
+    width: 50px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

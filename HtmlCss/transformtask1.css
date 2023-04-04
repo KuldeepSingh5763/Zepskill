@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100vw;
+    height: 200vh;
+    /* padding: 30px; */
+    background-color: antiquewhite;
+}
+.content{
+    width: 15%;
+    height: 20%;
+    background-color: aquamarine;
+    transform: translate(100px,100px);
+    transform: rotate(30deg);
+    animation: spin 8s linear infinite;
+}
+@keyframes spin {
+    0%{
+        background-color: brown;
+        transform: rotate(0deg);
+
+    }
+    100%{
+        background-color: aqua;
+        
+        
+    }
+    60%{
+        
+    }
+    50%{
+        border-radius: 50%;
+        transform: translate(1000px, 400px) rotate(180deg);
+     }
+} 
+.red,.green, .blue{
+    height: 10%;
+    width: 10%;
+}
+.red{
+    background-color: red
+}
+.blue{
+    background-color: blue;
+    position: sticky;
+    top: 50px;
+    left: 10%;
+}
+.green{
+    background-color: green;
+}

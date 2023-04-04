@@ -1,0 +1,30 @@
+body
+{
+	background-color:rgb(241, 9, 48);
+	padding:0;
+	margin:0;
+}
+.container
+{
+	width:800px;
+	min-height:80px;
+	border-color: blueviolet;
+}
+.row {
+	width: 800px;
+	height: 100px;
+}
+.whitebox
+{
+	width:100px;
+	height:100px;
+	background-color:rgb(249, 250, 249);
+	float:left;
+}
+.blackbox
+{
+	width:100px;
+	height:100px;
+	background:rgb(13, 14, 13);
+	float:left;
+}

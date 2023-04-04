@@ -1,0 +1,149 @@
+*{
+   margin: 0px;
+   padding: 0px; 
+   box-sizing: border-box;
+}
+.container{
+    height: 130vh;
+    width: 90vw;
+    margin-left: 5vw;
+}
+.header{
+    height: 20%;
+    width: 100%;
+    padding-top: 5px;
+}
+.head1{
+    height: 50%;
+    width: 100%;
+}
+.h{
+    height: 100%;
+    width: 50%;
+    font-size: 40px;
+    color: blueviolet;
+    float: left;
+}
+.search{
+    height: 95%;
+    width: 40%;
+    background-image: linear-gradient(rgb(234, 234, 80), rgb(97, 231, 97));;
+    text-align: center;
+    float: right;
+    
+    
+}
+input{
+    margin-top: 22px;
+    width: 180px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 15px;
+    
+}
+.search i{
+    border: none;
+    color:rgb(246, 31, 210);
+    position: absolute;
+    margin-top: 28px;
+    margin-left: -25px;
+    font-weight: bolder;
+}
+#s2{
+    background-color:rgb(246, 31, 210); 
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+}
+.head2{
+    height: 45%;
+    width: 100%;
+    background-color: rgb(239, 239, 10);
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+    transition: font-size 1s;
+}
+a:hover{
+    font-size: 22px;
+}
+span{
+    font-size: 18px;
+    padding: 20px;
+    font-weight: bold;
+}
+.content{
+    height: 75%;
+    width: 100%;
+}
+
+.part1{
+    height: 30%;
+    width: 100%;
+    background-image :linear-gradient(rgb(234, 234, 80), rgb(97, 231, 97));
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.p1{
+    font-size: 32px;
+    color: darkgreen;
+}
+.p2{
+    font-size: 22px;
+    color: rgb(24, 131, 24);
+    padding-top: 20px;
+}
+.part2{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+strong{
+    color: rgb(223, 25, 180);
+    font-size: 24px;
+    padding: 4%;
+}
+li{
+    padding-top: 2%;
+    padding-left: 4%;
+}
+.part4 li{
+    padding-top: 3%;
+    padding-left: 4%;
+}
+.part3{
+    height: 100%;
+    width: 40%;
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+}
+.part3 i{
+    color: tomato;
+    font-size: larger;
+}
+.part4{
+    height: 100%;
+    width: 40%;
+    border: 2px solid lightgreen;
+    border-radius: 10px;
+}
+.part4 i{
+    font-weight: bolder;
+    color: rgb(22, 245, 22);
+    font-size: 28px;
+}
+.footer{
+    height: 10%;
+    width: 100%;
+    background-image: linear-gradient(yellow,rgb(82, 244, 82));
+    margin-top: 4%;
+    padding-top: 3%;
+    padding-left: 2%;
+}

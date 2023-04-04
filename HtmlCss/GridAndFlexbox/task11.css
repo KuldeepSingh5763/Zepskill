@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.index{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Image/texture.avif);
+}
+.image{
+    width: 30%;
+    height: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 90%;
+    height: 85%;
+}

@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+}
+.digit{
+    font-size: 150px;
+    font-weight: bold;
+}
+.text{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.btn-index{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn{
+    height: 40px;
+    width: 200px;
+    font-size: 25px;
+    margin: 0px 10px;
+    color: white;
+    border:none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#start{
+    background-color: rgb(9, 245, 44);
+}
+#stop{
+    background-color: darkgoldenrod;
+}
+#reset{
+    background-color: red;
+}

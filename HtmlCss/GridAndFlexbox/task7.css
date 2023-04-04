@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes{
+    height: 90%;
+    width: 90%;
+    background-color:aquamarine ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.box1{
+    height: 25%;
+    width: 25%;
+    background-color: yellowgreen;
+}
+.box2{
+    height: 25%;
+    width: 25%;
+    background-color: rgb(232, 110, 228);
+}
+.box3{
+    height: 25%;
+    width: 25%;
+    background-color: rgb(79, 166, 228);
+}

@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 400vh;
+    width: 98.7vw;
+    background-color: rgb(250, 250, 209);
+}
+.navbar{
+    width: 100%;
+    height: 2.5%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image:linear-gradient(rgb(105, 203, 242),rgb(242, 146, 247));
+}
+.logo{
+    width: 20%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;    
+}
+.navbar-links{
+    width: 65%;
+    height: 90%;
+}
+.navbar-links ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    font-size: large; 
+    text-transform: uppercase;   
+}
+.navbar-links ul li{
+    position: relative;
+    list-style: none;
+    display: inline-block;
+}
+.navbar-links ul ul{
+    height: 320px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 25px;
+    display:none;
+    font-size: small;
+    padding-left: 20px;
+}
+.navbar-links ul li:hover > ul{
+    display: block;
+}
+.navbar-links ul ul li{
+    width: 250px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+.navbar-links a{
+    text-decoration: none;
+    font-size:larger;
+    font-weight: bold;
+    display: block;
+    line-height: 25px;
+    color:black;
+}
+.navbar-links a:hover{
+    color:rgb(17, 17, 237);
+}
+#media{
+    height: 100px;
+    width: 170px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 25px;
+    display:none;
+    font-size: small;
+    padding-left: 20px;
+}
+.navbar-links ul li:hover > #media{
+    display: block;
+}
+.head{
+    width: 100%;
+    height: 15%;
+}
+.head img{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 7px;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 40px;
+}
+.ebook-content{
+    height: 65%;
+    width: 100%;
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(3,33%);
+    grid-template-rows: repeat(4,23%);
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.a1{
+    text-align: center;
+}
+.ebook-content img{
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+} 
+.a1 img:hover{
+    height: 92%;
+    width: 92%;
+}
+.a1 h2{
+    background-image:-webkit-linear-gradient(left, rgb(234, 241, 18), red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+
+.footer{
+    height: 12%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_content{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(79, 80, 102);
+    display: flex;
+    color: white;
+}
+.tbl1{
+    height: 60%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 30px;
+}
+.tbl2{
+    height: 90%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    justify-content: space-evenly;
+}
+.tbl2 a{
+    text-decoration: none;
+    color: white;
+}
+.tbl2 i, .tbl3 i{
+    color: orange;
+}
+.tbl2 a:hover{
+    color: orange;
+}
+.tbl3{
+    height: 60%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+.tbl4{
+    height: 70%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+.tbl4 textarea{
+    height: 40%;
+    width: 80%;
+}
+.tbl4 button{
+    height: 35px;
+    width: 150px;
+    border-color: orange ;
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+}
+.footer_content h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+

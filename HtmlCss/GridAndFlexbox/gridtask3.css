@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.index{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(214, 223, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    height: 60%;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(3,25%);
+    grid-template-rows: repeat(3,40%);
+    row-gap: 5px;
+    column-gap: 5px;
+}
+.div1, .div2, .div3, .div4, .div5, .div6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.div1{
+    background-color: rgb(14, 228, 174); 
+}
+.div2{
+    background-color: rgb(218, 174, 15);  
+}
+.div3{
+    background-color:rgb(5, 238, 40);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;  
+}
+.div4{
+    background-color: rgb(151, 8, 223);  
+}
+.div5{
+    background-color: rgb(255, 0, 247);
+}
+.div6{
+    background-color: rgb(8, 116, 223);
+} 

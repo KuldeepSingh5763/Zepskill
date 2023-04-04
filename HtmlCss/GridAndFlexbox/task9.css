@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.index{
+    width: 100vw;
+    height: 100vh;
+    border: 2px dotted red;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header{
+    width: 95%;
+    height: 20%;
+    background-color: rgb(24, 224, 157);
+    text-align: center;
+}
+.header h1{
+    padding: 3%;
+    color: aliceblue;
+}
+.content{
+    width: 95%;
+    height: 60%; 
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.aside{
+    width: 32%;
+    height: 100%;
+    background-color: rgb(8, 173, 118);
+}
+.aside h1{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 40%;
+}
+.article{
+    width: 66%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(203, 54, 54);
+}
+.part1{
+    width: 100%;
+    height: 45%;
+    background-color: rgb(203, 54, 54);
+}
+.part2{
+    width: 100%;
+    height: 45%;
+    background-color: rgb(203, 54, 54);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.img1{
+    width: 25%;
+    height: 80%;
+    background-color: rgb(203, 166, 166);
+}
+.img2{
+    width: 25%;
+    height: 80%;
+    background-color: rgb(223, 190, 190);
+}
+.img3{
+    width: 25%;
+    height: 80%;
+    background-color: rgb(217, 173, 173);
+}
+.part1 h1{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 17%;
+  
+}
+h2{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 25%;
+}
+
+.footer{
+    width: 95%;
+    height: 10%;
+    background-color: rgb(21, 219, 153);
+}
+.footer h1{
+    text-align: center;
+    padding: 1%;
+    color: aliceblue;
+}

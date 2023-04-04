@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(249,245,242);
+}
+.container{
+    width: 100vw;
+    height: 400vh;    
+}
+.navbar{
+    width: 100%;
+    height: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(249,245,242);
+    position: sticky;
+    top: 0;
+}
+.navbar-logo{
+    width: 20%;
+    height: 100%;
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+}
+.navbar-logo a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-logo a:hover{
+    color: rgb(254,192,143);
+     font-weight: bold;
+    font-kerning: normal;
+    cursor:progress;
+}
+.navbar-link{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar-link a{
+    border: none;
+    background-color: waliceblue;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+.navbar-link a:hover{
+    color: rgb(254,192,143);
+    font-size: 23px;
+    text-transform: uppercase;
+    border: 1px dashed rgb(233, 103, 4);
+}
+.header{
+    width: 100%;
+    height: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.header-content{
+    width: 40%;
+    height: 90%;
+    text-align: center;
+    padding-top: 7%;
+    position: relative;
+    background-color: rgb(254,192,143);
+    border-radius: 55%;
+}
+.header-p1{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    background: none;
+    font-size: 60px;
+    transform: translate(2%,-50%);
+}
+
+.header-content img:hover{
+    width: 100%;
+    height: 100%;
+    border-radius: 55%;
+}
+.content{
+    width: 100%;
+    height: 20%;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    justify-content: center;
+    align-content: center;
+}
+.content-aboutme{
+    text-align: center;
+}
+.content-aboutme h1{
+    padding: 30px;
+}
+.content-aboutme h1:hover{
+    font-size: 45px;
+    color:rgb(240, 154, 41) ;
+}
+.content-aboutme span{
+    font-size: 22px;
+    line-height: 35px;
+    text-align: center;
+    padding-left: 10px;
+}
+.content-image{
+    text-align: center;
+}
+.content-image img{
+    width: 40%;
+    height: 80%;
+    box-shadow: 1px 10px rgb(37, 35, 35);
+}
+.content-aboutme h2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    font-size: xx-large;
+}
+.content-aboutme h2:hover{
+    color: brown;
+}
+  
+.content-aboutme h2:before,
+h2:after {
+    content: "";
+    flex: 1  1;
+    border-bottom: 2px solid #000;
+    margin: auto;
+}
+.education-background{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+}
+.education-background h1{
+    font-size: 80px;
+}
+.vl {
+    border-left: 2px solid rgb(11, 11, 11);
+    height: 300px;
+  }
+.details hr{
+    width: 100%;
+    border: 1px solid black;
+    margin-top : 10%;
+    margin-bottom: 10%;
+}
+.details h2{
+    font-size: xx-large;
+}
+.details ul{
+    font-size: x-large;
+    padding-left: 20px;
+}
+.skill{
+    width: 100%;
+    height: 20%;
+    display: grid;
+    grid-template-columns: 50% 0.2% 49%;
+    justify-content: center;
+    align-content: center;
+}
+.skill-p1{
+    font-size: 63px;
+    text-align: center;
+}
+.skill-p1 h1{    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.skill-p1 h1:hover{
+    color: rgb(254,192,143);
+    border: 2px solid lightseagreen;
+}
+.skill-p2{
+    font-size: 45px;
+    text-align: center;
+}
+.skill-p2 input{
+    width: 50%;    
+}
+.skill-p2 label:hover{
+    color: rgb(254,192,143);
+}
+.hr2{
+    margin-top: 35px;
+}
+.contact{
+    width: 100%;
+    height: 6%;
+    display: grid;
+    grid-template-rows: repeat(2,50%);
+    justify-content: space-evenly;
+    align-content: center;
+    font-size: 30px;
+}
+.contact-p1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact h1:hover{
+    color: rgb(234, 166, 114);
+}
+.contact a:hover{
+    font-size: 60px;
+    text-decoration: none;
+    color: rgb(237, 107, 8);
+}
+
+

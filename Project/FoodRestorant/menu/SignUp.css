@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    height: 120vh;
+    width: 98.7vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.nav_bar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)),url(../FoodRestorant/background.jpg);
+}
+.logo{
+    font-size: 24px;
+    padding-top: 10px;
+}
+.logo h1{
+    color: orange;
+}
+.nav_list{
+    height: 90%;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav_list li{
+    list-style-type: none;
+    font-size: 22px;
+}
+.nav_bar a{
+    text-decoration: none;
+    color: white;
+}
+.nav_bar a:hover{
+    color: orange;
+    font-size: 24px;
+}
+.nav_list button{
+    height: 40px;
+    width: 180px;
+    margin-top: 10px;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+.nav_list button:hover{
+    color: orange;
+    background-color: white;
+}
+.nav_list button a{
+   color: white;
+   font-size: 18px;
+}
+.background{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(15, 15, 15, 0.9),rgba(0, 0, 0, 0.9)),url(https://4.bp.blogspot.com/-V9-V3z6qZJQ/VN4YPziFQqI/AAAAAAAACUE/gkjhH2Nu3gY/s1600/15263-Fish%2C%2BSalad%2C%2BBread%2BFood%2BHD%2BWallpaperz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.form-parent{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 4px solid orange;
+    border-radius: 15px;
+    height: 83%;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* box-shadow: 3px -10px 10px 0px rgba(255, 165, 0, 1); */
+}
+.title{
+    margin-top: -30px;
+    font-size: 30px;
+    width: 100%;
+    height: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    color: orange;
+}
+.label{
+    padding-top: 10px;
+    color: orange;
+}
+
+.content{
+    width: 70%;
+    height: 80%;
+    
+    
+}
+input[type=text]{
+    font-size:18px;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(121, 114, 114);
+    margin-top:10px;
+    border-right:20px ;
+    width: 300px;
+    background: none;
+    outline: none;
+}
+input[type=tel]{
+    font-size:18px;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(121, 114, 114);
+    margin-top:10px;
+    border-right:20px ;
+    width: 300px;
+    background: none;
+    outline: none;
+}
+input[type=number]{
+    font-size:18px;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(121, 114, 114);
+    margin-top:10px;
+    border-right:20px ;
+    width: 300px;
+    background: none;
+    outline: none;
+}
+
+input[type=email]{
+    font-size:18px;
+    border: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(121, 114, 114);
+    margin-top:10px;
+    border-right:20px ;
+    width: 300px;
+    background: none;
+    outline: none;
+}
+
+input[type=password]{
+    border: none;
+    font-size:18px;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(121, 114, 114);
+    margin-top:10px;
+    border-right:20px ;
+    width: 300px;
+    background: none;
+    outline: none;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    width:70% ;
+    font-size: 19px;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    background:none;
+    color: orange;
+    font-weight: 700;
+    outline: none;
+}
+.btn{
+
+    padding-top: 0px;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover{
+    
+    border: 1 px soild orange;
+    background-color: orange;
+    color: white;
+}
+.signup{
+    margin-top: 1%;
+    height: 10%;
+    color: orange;
+    width: 100%;
+    text-align: center;
+}
+.text{
+    padding-top:6%;
+}
+a{
+    text-decoration: none;
+    color: orange;
+}

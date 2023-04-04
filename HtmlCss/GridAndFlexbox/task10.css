@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(10, 32, 15);
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+.boxes{
+    width: 95%;
+    height: 95%;
+    background-color: white;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+img{
+    height: 90%;
+    width: 100%;
+}
+.image1, .image2, .image3, .image4, .image5, .image6{
+    height: 45%;
+    width: 32%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}

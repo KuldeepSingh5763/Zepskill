@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+button{
+    height: 35px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.content{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(97, 233, 172);
+}
+.history-content{
+    height: 80%;
+    width: 60%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(251, 176, 79);
+}
+.vision-content{
+    height: 80%;
+    width: 60%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(251, 176, 79);
+}
+
+.goal-content{
+    height: 80%;
+    width: 60%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(251, 176, 79);
+}

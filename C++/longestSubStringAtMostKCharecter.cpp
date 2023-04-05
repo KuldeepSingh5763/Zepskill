@@ -2,7 +2,7 @@
 #include<vector>
 #include<string>
 using namespace std;
-int lengthOfLongestSubstringAtMostTwoCharecter(string s) {
+int lengthOfLongestSubstringAtMostTwoCharecter(string s, int k) {
         int n=s.length();
         int si=0,ei=0,len=0,count=0;
         vector<int>map(128,0);
@@ -10,7 +10,7 @@ int lengthOfLongestSubstringAtMostTwoCharecter(string s) {
             if(map[s[ei++]]++ == 0){
                 count++;
             }
-            while(count>2){
+            while(count>k){
                 if(map[s[si++]]-- == 1){
                     count--;
                 }
@@ -20,8 +20,12 @@ int lengthOfLongestSubstringAtMostTwoCharecter(string s) {
         return len;
     }
 int main(){
-    string str;
-    cout<<"Enter the String :";
-    getline(cin,str);
-    cout<<"Longest Length of substring = "<<lengthOfLongestSubstringAtMostTwoCharecter(str);
+    int k;
+    cout<<"Enter Any number : ";
+    cin>>k;    // Present at most k Character in subString.
+    string str ;
+    cout<<"Enter any String :";
+    cin>>str;
+    cout<<"Longest Length of substring = "<<lengthOfLongestSubstringAtMostTwoCharecter(str,k);
     }
+

@@ -3,14 +3,14 @@
 using namespace std;
 
 int maxSubArray(vector<int>& nums) {
-        int size = nums.size();
-        int max1 = INT_MIN;
+        int max1 = -(int)1e9;
         int sum1=0;
-        for(int i=0;i<size;i++){
-            sum1 = sum1 + nums[i];
+        for(int ele:nums){
+            sum1 = sum1 + ele;
             max1 = max(max1,sum1);
-
-            sum1 = max(sum1,0);
+            if(sum1<0){
+                sum1=0;
+            }
         }
         return max1;
     }

@@ -26,5 +26,5 @@ int equilibriumPoint(long long a[], int n) {
 int main(){
     long long arr[] ={1,3,5,2,2};
     int n =sizeof(arr)/sizeof(arr[0]);
-    cout<<"Equilibrium Point = "<<equilibriumPoint(arr , n);
+    cout<<"Equilibrium Point is = "<<equilibriumPoint(arr , n);
 }

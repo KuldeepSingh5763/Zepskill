@@ -1,9 +1,12 @@
 #include<iostream>
-#include<vector>
 #include<string>
+#include<vector>
+
 using namespace std;
+
 int lengthOfLongestSubstring(string s) {
-        int n=s.length();
+
+    int n=s.length();
         if(n<=1){
             return n;
         }
@@ -21,10 +24,10 @@ int lengthOfLongestSubstring(string s) {
             len = max(len , ei-si);
         }
         return len;
-    }
+}
+
 int main(){
-    string str;
-    cout<<"Enter the String :";
-    getline(cin,str);
-    cout<<"Longest Length of substring = "<<lengthOfLongestSubstring(str);
-    }
+        string s="abcabcbb";
+        cout<<lengthOfLongestSubstring(s);
+
+	}

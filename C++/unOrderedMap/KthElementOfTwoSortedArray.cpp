@@ -23,7 +23,7 @@ int kthElement(int arr1[], int arr2[],int n, int m, int k)
         while(j<m){
             map.push_back(arr2[j++]);
         }
-        return map[k-1];
+        return map[k];
     }
 
     int main(){

@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.sidebar{
+    width: 300px;
+   background-color: rgb(95, 93, 93);
+
+}
+.sidebar nav{
+    padding: 40px;
+}
+.sidebar nav li{
+    list-style-type: none;
+    font-size:  30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.main{
+    width: 85vw;
+    /* background-color: yellow; */
+}
+.info{
+    /* background-color: rgb(237, 80, 80); */
+    height: 60vh;
+    width: 80vw;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 60px;
+    font-weight: 800;
+}
+.about{
+    font-size: 40px;
+}
+.moreabout{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.buttons{
+    margin-top: 30px;
+}
+.buttons button{
+    padding: 9px 14px;
+    margin: 0 3px;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
+    cursor: pointer;
+}
+.devPic img{
+    height: 60vh;
+}
+
+/*Contact form*/
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 110px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+.contactform form div{
+    padding: 10px 0;
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 10px;
+}
+
+.mb-3{
+    display: flex;
+    flex-direction: column;
+}
+.form-check{
+    flex-direction: row;
+}
+.form-check-label{
+    margin-left: 10px;
+}
